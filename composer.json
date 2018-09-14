@@ -1,0 +1,17 @@
+{
+    "name": "t3g/ddev-utilities",
+    "type": "typo3-cms-extension",
+    "description": "Utility Extension for intended use with ddev-based setups",
+    "homepage": "https://typo3.com",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^8.7 || ^9.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "T3G\\DdevUtilities\\": "Classes/"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+#
+# PageTS for ddev utilities
+#
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ddev_utilities/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ddev_utilities/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ddev_utilities/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:ddev_utilities/Configuration/PageTS/Mod/WebLayout/BackendLayouts.txt">
