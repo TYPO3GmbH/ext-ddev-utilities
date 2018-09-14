@@ -4,6 +4,6 @@
  */
 return [
     'ddev:exportdb' => [
-        'class' => \WMDB\Benediktiner\Command\ExportDatabaseCommand::class
+        'class' => \T3G\DdevUtilities\Command\ExportDatabaseCommand::class
     ],
 ];
