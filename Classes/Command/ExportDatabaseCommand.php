@@ -40,6 +40,9 @@ class ExportDatabaseCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        // Ensure export directory exists
+        GeneralUtility::mkdir_deep($_ENV['TYPO3_PATH_APP'] . '/data');
+
         $io = new SymfonyStyle($input, $output);
         $io->title($this->getDescription());
         foreach ($GLOBALS['TYPO3_CONF_VARS']['DB']['Connections'] as $identifier => $connection) {
