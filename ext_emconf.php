@@ -8,7 +8,7 @@
  */
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'ddev utilities',
+    'title' => 'DDEV Utilities',
     'description' => 'Utility Extension for intended use with ddev-based setups',
     'category' => 'templates',
     'state' => 'stable',
