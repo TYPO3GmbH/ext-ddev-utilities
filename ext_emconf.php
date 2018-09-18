@@ -8,7 +8,7 @@
  */
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'ddev utilities',
+    'title' => 'DDEV Utilities',
     'description' => 'Utility Extension for intended use with ddev-based setups',
     'category' => 'templates',
     'state' => 'stable',
@@ -17,7 +17,7 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 1,
     'author' => 'TYPO3 GmbH',
     'author_email' => 'info@typo3.com',
-    'version' => '0.1.1',
+    'version' => '0.1.2',
     'constraints' => [
         'depends' => [
             'typo3' => '8.7.0-9.5.99',
