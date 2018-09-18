@@ -1,6 +1,7 @@
 <?php
+
 /*
- * This file is part of the package t3g/blog.
+ * This file is part of the package t3g/ddev-utilities.
  *
  * For the full copyright and license information, please read the
  * LICENSE file that was distributed with this source code.
@@ -27,7 +28,6 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Core\Utility\PathUtility;
 
 class ExportDatabaseCommand extends Command
 {
