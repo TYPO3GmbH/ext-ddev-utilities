@@ -84,8 +84,22 @@ class ExportDatabaseCommand extends Command
         $io->writeln('Exported DB structure');
 
         $ignoredTables = [
-            'cache_md5params',
+            'cache_adminpanel_requestcache',
+            'cache_adminpanel_requestcache_tags',
+            'cache_hash',
+            'cache_hash_tags',
+            'cache_imagesizes',
+            'cache_imagesizes_tags',
+            'cache_pages',
+            'cache_pagesection',
+            'cache_pagesection_tags',
+            'cache_pages_tags',
+            'cache_rootline',
+            'cache_rootline_tags',
             'cache_treelist',
+            'cache_workspaces_cache',
+            'cache_workspaces_cache_tags',
+            'cache_md5params',
             'cf_cache_hash',
             'cf_cache_hash_tags',
             'cf_cache_imagesizes',
@@ -106,7 +120,7 @@ class ExportDatabaseCommand extends Command
             'cf_extbase_reflection',
             'cf_extbase_reflection_tags',
             'cf_extbase_datamapfactory_datamap_tags',
-            'cf_extbase_datamapfactory_datamap'
+            'cf_extbase_datamapfactory_datamap',
         ];
 
         $command = 'mysqldump ' . $dbName . ' --skip-extended-insert --complete-insert --no-create-info --skip-comments --skip-add-locks --skip-disable-keys';
